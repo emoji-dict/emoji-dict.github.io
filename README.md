@@ -32,4 +32,6 @@ $ rake build
 
 And then push all generated files to GitHub.
 
-## Licence
+## License
+
+See LICENSE.md.
