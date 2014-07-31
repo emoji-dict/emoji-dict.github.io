@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Dictionary of emoji slangs"
+---
+
+:metal:
+
+  :metal:
+Rock & Roll, it's used to exclaim something is awesomely good.
+
+:star2: :rocket:
+`:star2::rocket:`
+StarCraft
+
+:wave::alarm_clock::heavy_check_mark:
+`:wave::alarm_clock::heavy_check_mark:`
+APM check
+
+:no_entry_sign::abcd:
+`:no_entry_sign::abcd:`
+No words allowed / emoji only
+
+:books::office:
+`:books::office:`
+Amazon
+
+:snowflake::gift:
+`:snowflake::gift:`
+Freezer
+
+:bread::icecream::bread:
+`:bread::icecream::bread:`
+Ice cream sandwich
+
+:octocat:
+`:octocat:`
+Owen
+
+:sushi::helicopter::bulb::monkey:
+`:sushi::helicopter::bulb::monkey:`
+Niel, the sushi-propelled idea monkey
