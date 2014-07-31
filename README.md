@@ -31,8 +31,7 @@ To regenerate the site, you need to run
 
 ```sh
 $ bundle install
-$ rake build
-$ jekyll serve -w # serve page on localhost:4000
+$ rake build # `jekyll serve -w` to serve page on localhost:4000
 ```
 
 And then push all generated files to GitHub.
