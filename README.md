@@ -18,6 +18,7 @@ The schema looks like this:
 There's a `Rake` task to automate the generation:
 
 ```sh
+$ bundle install
 $ rake new EMOJI=EMOJI_SLANG DEF=EMOJI_DEFINITION
 ```
 
@@ -27,11 +28,14 @@ $ rake new EMOJI=EMOJI_SLANG DEF=EMOJI_DEFINITION
 To regenerate the site, you need to run
 
 ```sh
+$ bundle install
 $ rake build
+$ jekyll serve -w # serve page on localhost:4000
 ```
 
 And then push all generated files to GitHub.
 
 ## License
 
-See LICENSE.md.
+See
+[LICENSE.md](https://github.com/emoji-dict/emoji-dict.github.io/blob/master/LICENSE.md).
