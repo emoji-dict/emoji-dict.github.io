@@ -16,14 +16,10 @@ end
 module Emoji
   class Slang < Struct.new(:symbols, :definitions)
     def self.from_json(json)
-      symbols = json.fetch("emoji").split(/:(\w+):/).reject(&:empty?)
+      symbols = json.fetch("emoji").split(/(:\w+:)/).reject(&:empty?)
       symbols = symbols.map { |s| Symbol.new s }
       definitions = Array(json.fetch("def"))
       new symbols, definitions
-    end
-
-    def emojis
-      symbols.map { |s| s.gsub(":", "") }
     end
   end
 end
